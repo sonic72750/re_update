@@ -1,5 +1,5 @@
 {
-  "version": "v20250527175330",
-  "url": "https://github.com/sonic72750/re_update/releases/download/v20250527175330/gui.zip",
-  "changelog": "1."
+  "version": "v20250527175637",
+  "url": "https://github.com/sonic72750/re_update/releases/download/v20250527175637/gui.zip",
+  "changelog": "1.修正On/Off測試結束的邏輯，確保在設定降溫時間後能正確執行測試循環。"
 }
