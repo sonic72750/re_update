@@ -1,5 +1,5 @@
 {
-  "version": "v20250527175637",
-  "url": "https://github.com/sonic72750/re_update/releases/download/v20250527175637/gui.zip",
-  "changelog": "1.修正On/Off測試結束的邏輯，確保在設定降溫時間後能正確執行測試循環。"
+  "version": "v20250527175704",
+  "url": "https://github.com/sonic72750/re_update/releases/download/v20250527175704/gui.zip",
+  "changelog": "1.修正On/Off測試結束的邏輯，確保在設定降溫時間後能正確執行測試循環。\n2.修正OnOffThread類別中的連接參數，將A_HOST替換為A_USER和A_PASS，以正確傳遞用戶名和密碼進行連接。\n3.新增Chamber加熱與降溫時間的設定，並更新相關 UI 元件。調整保存載入配置檔以包含新的時間參數。修正 UI 佈局以適應新增的輸入欄位。\n4.新增在檔案上傳功能中新增連接超時設定。修正onoff的dumplog按鈕連接錯誤的登入訊息。\n5.feat(gui): 新增測試按鈕並更新 QES 相關功能\n6.feat(gui): 強化 QES 整合的使用者介面，並新增 xlogin 密碼輸入欄位\n7.調整 UI 佈局並新增 PuTTY 視窗高度輸入欄位\n8.新增記憶體壓力測試功能及相關 UI 更新\n9.feat(gui): 新增FIO檔案和目錄按鈕功能，更新UI顯示文字"
 }
